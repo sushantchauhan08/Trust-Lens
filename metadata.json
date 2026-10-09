@@ -1,0 +1,6 @@
+{
+  "name": "TrustLens",
+  "description": "AI barcode and product scanner for real-time shelf comparison, ingredient analysis, trust score evaluation, and finding healthy alternatives.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

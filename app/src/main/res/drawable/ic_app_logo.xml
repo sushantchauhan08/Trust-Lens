@@ -1,0 +1,47 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="128dp"
+    android:height="128dp"
+    android:viewportWidth="128"
+    android:viewportHeight="128">
+
+    <!-- Outer scanning circle rim -->
+    <path
+        android:pathData="M64,8C33.1,8 8,33.1 8,64s25.1,56 56,56 56,-25.1 56,-56S94.9,8 64,8zm0,104c-26.5,0 -48,-21.5 -48,-48S37.5,16 64,16s48,21.5 48,48 -21.5,48 -48,48z"
+        android:fillColor="#34D399" />
+
+    <!-- Trust Shield structure inside -->
+    <path
+        android:pathData="M64,30l28,10c0,16 -7,31 -28,42 -21,-11 -28,-26 -28,-42z"
+        android:fillColor="#059669" />
+
+    <!-- Scientific lens detail (shining cross or lens flare) -->
+    <path
+        android:pathData="M64,48l4,4-4,4-4-4z"
+        android:fillColor="#2DD4BF" />
+    <path
+        android:pathData="M48,64l4,4-4,4-4-4z"
+        android:fillColor="#2DD4BF" />
+    <path
+        android:pathData="M80,64l4,4-4,4-4-4z"
+        android:fillColor="#2DD4BF" />
+
+    <!-- Dynamic barcode horizontal lines at the bottom -->
+    <path
+        android:pathData="M38,92h4v8h-4z"
+        android:fillColor="#34D399" />
+    <path
+        android:pathData="M46,92h8v8h-8z"
+        android:fillColor="#34D399" />
+    <path
+        android:pathData="M58,92h2v8h-2z"
+        android:fillColor="#34D399" />
+    <path
+        android:pathData="M64,92h6v8h-6z"
+        android:fillColor="#34D399" />
+    <path
+        android:pathData="M74,92h8v8h-8z"
+        android:fillColor="#34D399" />
+    <path
+        android:pathData="M86,92h4v8h-4z"
+        android:fillColor="#34D399" />
+</vector>
